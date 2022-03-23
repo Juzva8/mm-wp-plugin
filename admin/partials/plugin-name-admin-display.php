@@ -29,13 +29,13 @@
   <style>
     td 
 	{
-		text-align:center;
+		text-align:left;
 	}
   </style>
 </head>
 <body>
 <div class="container">
-   <h4 class="text-center mt-4">User Detail</h4> 
+   <h4 class="text-left mt-4">User Detail</h4> 
   <div class="row">
     <?php 
 		   $ch = curl_init();
